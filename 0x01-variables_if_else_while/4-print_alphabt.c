@@ -3,11 +3,16 @@
 int main (void) {
 
 
-  char ch = 97;
+  int ch = 97;
 
-   while(ch <= 122){
+   while (ch <= 122){
+	   if( ch == 101 || ch == 113){
+		   ch++;
+		   continue;
+	   }
+
     putchar(ch);
-     ch++;
+    ch++;
    }
    putchar('\n');
   return 0;
