@@ -3,11 +3,11 @@
 int main (void) {
 
 
-  char ch = 65;
+  char ch = 122;
 
-   while(ch <= 90){
+   while(97 <= ch){
     putchar(ch);
-     ch++;  
+     ch--;
    }
    putchar('\n');
   return 0;
