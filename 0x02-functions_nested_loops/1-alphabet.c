@@ -1,21 +1,20 @@
 #include "main.h"
 #include <unistd.h>
 
-int _putchar(char c)
-{
-        return (write(1, &c, 1));
-}
+/**
+ * print_alphabet - Prints the  alphabet.
+ * Return: Always 0.
+ */
 
-int myFunction(void)
+void print_alphabet(void)
 {
-
 int y = 97;
 
-while(y <= 122)
+while (y <= 122)
 {
-_putchar(y);
+_putchar (y);
 y++;
 }
 _putchar('\n');
-return 0;
-}	
+
+}
