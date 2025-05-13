@@ -1,6 +1,5 @@
 #include "main.h"
 #include <unistd.h>
-#include <stdio.h>
 
 void rev_string(char *s)
 {
